@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BigRock
+  m_Shader: {fileID: 4800000, guid: b564a122a95955e4eb256bb71fb82b2f, type: 3}
+  m_ShaderKeywords: _CLIP_ON _TEXTOUTLINE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ClipTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Texture:
+        m_Texture: {fileID: 2800000, guid: 404c12d7fb23b0f4498975e750b4767a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture:
+        m_Texture: {fileID: 2800000, guid: 895f6eb7980097347812f9adf37caf73, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToneTexture:
+        m_Texture: {fileID: 2800000, guid: 0a6c1ede840740242ae5b54f9b05c15f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _Clip: 1
+    - _Cutoff: 0.5
+    - _DIF_Pow: 1
+    - _E_power: 3
+    - _OutLineWidth: 0.005
+    - _TextOutLine: 0.1544118
+    m_Colors:
+    - _ColorD: {r: 0.7264151, g: 0.6427109, b: 0.53110534, a: 1}
+    - _ColorE: {r: 0.50735295, g: 0.43124053, b: 0.36559257, a: 1}
+    - _ColorOutLine: {r: 0.15441176, g: 0.15441176, b: 0.15441176, a: 1}

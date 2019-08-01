@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Akaza_Body
+  m_Shader: {fileID: 4800000, guid: b564a122a95955e4eb256bb71fb82b2f, type: 3}
+  m_ShaderKeywords: _CUBEON_ON _IS_BLENDADDTOMATCAP_ON _IS_LIGHTCOLOR_1ST_SHADE_ON
+    _IS_LIGHTCOLOR_2ND_SHADE_ON _IS_LIGHTCOLOR_AP_RIMLIGHT_ON _IS_LIGHTCOLOR_BASE_ON
+    _IS_LIGHTCOLOR_HIGHCOLOR_ON _IS_LIGHTCOLOR_MATCAP_ON _IS_LIGHTCOLOR_RIMLIGHT_ON
+    _OUTLINE_NML _SET_SYSTEMSHADOWSTOBASE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ClipTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeText_E:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeTexture1:
+        m_Texture: {fileID: 8900000, guid: bc817a455746c06418db255c91e7047c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Texture:
+        m_Texture: {fileID: 2800000, guid: 71c9e69002370e54c8931137631a8c59, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture:
+        m_Texture: {fileID: 2800000, guid: 0b081e421a742c84391a7153117ddcec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LineArt:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LineArt1:
+        m_Texture: {fileID: 2800000, guid: 4f7be89893b8e704b9ee85fe1e7ffa50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LineArt2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TRMS_Texture:
+        m_Texture: {fileID: 2800000, guid: 0684a55af12ac274a87e89dc02863c01, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TRMS_Texture1:
+        m_Texture: {fileID: 2800000, guid: fd4731394d49bc94aa86d4531b344e59, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TRNS_Texture2:
+        m_Texture: {fileID: 2800000, guid: ddc8d11f7a539e2409a244326919f8e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexDifuse:
+        m_Texture: {fileID: 2800000, guid: e6e3b03ac095eae43b4aac696dd11c5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexDifuse1:
+        m_Texture: {fileID: 2800000, guid: fd4731394d49bc94aa86d4531b344e59, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexDifuse2:
+        m_Texture: {fileID: 2800000, guid: ddc8d11f7a539e2409a244326919f8e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexSPC:
+        m_Texture: {fileID: 2800000, guid: 8e41d4383c215924e87a14746665e3a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexSPC1:
+        m_Texture: {fileID: 2800000, guid: 8e41d4383c215924e87a14746665e3a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexSPC2:
+        m_Texture: {fileID: 2800000, guid: ddc8d11f7a539e2409a244326919f8e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextEmission:
+        m_Texture: {fileID: 2800000, guid: e6e3b03ac095eae43b4aac696dd11c5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToneColor:
+        m_Texture: {fileID: 2800000, guid: e6e3b03ac095eae43b4aac696dd11c5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToneTexture:
+        m_Texture: {fileID: 2800000, guid: 789050d4b5935d648bcf8acef40539a7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Txtr1Alpha:
+        m_Texture: {fileID: 2800000, guid: 511f08b072f9aeb47b623222ff12c0c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Txtr1DivisorAlpha:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Txtr_Emission1:
+        m_Texture: {fileID: 2800000, guid: 8e41d4383c215924e87a14746665e3a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Txtr_Emission2:
+        m_Texture: {fileID: 2800000, guid: ddc8d11f7a539e2409a244326919f8e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_9021:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _Clip: 0
+    - _CubeON: 1
+    - _Cutoff: 0.5
+    - _DIF_Pow: 1
+    - _E_power: 3
+    - _E_power1: 0.3
+    - _E_power2: 0.3
+    - _Gloss: 1
+    - _OutLineWidth: 0.006
+    - _SPC_Amb: 1.5
+    - _SPC_Amb1: 0.5
+    - _SPC_Amb2: 4
+    - _SPC_Power: 0.5
+    - _SPC_Power1: 1.5
+    - _SPC_Power2: 0.2
+    - _TextOutLine: 0
+    - _TransmPow1: 31.03
+    - _Transmission: 4
+    - _TransmissionPow2: 0
+    - _Txtr2ON: 0
+    - _TxtrEmission2: 0
+    - _TxtrSPC2ON: 0
+    - _TxtrTransm2ON: 0
+    m_Colors:
+    - _ColorD: {r: 0.18382353, g: 0.18382353, b: 0.18382353, a: 1}
+    - _ColorD1: {r: 0.31617647, g: 0.31617647, b: 0.31617647, a: 1}
+    - _ColorD2: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorE: {r: 0.9852941, g: 0.9852941, b: 0.9852941, a: 1}
+    - _ColorE2: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOutLine: {r: 0.15441176, g: 0.15441176, b: 0.15441176, a: 1}
